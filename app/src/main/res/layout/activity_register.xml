@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9FA"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Register">
+    />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="191dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="49dp"
+                android:gravity="center"
+                android:text="Create your \n account"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="302dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="  Email"
+                android:inputType="textPersonName"
+                android:background="@drawable/btn1"
+                android:elevation="2dp"
+                />
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="301dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="36dp"
+                android:ems="10"
+                android:hint="  Password"
+                android:inputType="textPassword"
+                android:background="@drawable/btn1"
+                android:elevation="2dp"
+                />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="123dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="51dp"
+                android:text="Join us"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="331dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="After clicking on 'Join us' you agree\n to our terms and conditions"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+"</LinearLayout>
